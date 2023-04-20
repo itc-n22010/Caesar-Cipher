@@ -14,5 +14,5 @@ def caesar_cipher(ciphertext, shift):
     return plaintext
 
 ciphertext = input("解読したい文字を打て ")
-shift = 7
+shift = input("なん文字ずらしたい？")
 print(caesar_cipher(ciphertext, shift))
