@@ -14,5 +14,5 @@ def caesar_cipher(plaintext, shift):
     return ciphertext
 
 plaintext = input("何を隠したい？ ")
-shift = 7
+shift = input("なん文字ずらしたい？")
 print(caesar_cipher(plaintext, shift))
